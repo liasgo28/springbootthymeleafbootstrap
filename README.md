@@ -40,6 +40,7 @@ Open pom.xml file and add the next code after the </project> tag
 * add the annotation @SpringBootApplication before the class
 * create a new main method and push this SpringApplication.run(Application.class, args);
 * the final code will look like this
+
 ```
 package springbootthymeleafbootstrap;
 
@@ -66,6 +67,7 @@ Run main method and see in console application was been started!
 * create a new method with String return and before the method put @RequestMapping("/") and @ResponseBody annotations
 * return any string
 * the final code will look like this
+
 ```
 package springbootthymeleafbootstrap;
 
@@ -86,6 +88,7 @@ public class IndexController {
  * in src -> main -> resources create a new folder with name templates
  * in template folder create a nem html file (index.html)
  * open html file and paste this code
+ 
 	```
 	<!DOCTYPE html>
 	<html>
@@ -113,11 +116,12 @@ In the eclipse console see message "Controller called"
 
 ### Bootstrap
 	* in src -> main -> resources create a new folder with name static
-	* [download bootstrap](https://getbootstrap.com/) 
+	* Get [bootstrap](https://getbootstrap.com/) 
 	* Unzip file and rename folder to bootstrap and move to static folder
 	* add import tag css before </head> <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	* add import tags jquery, and js before </body> <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><script src="bootstrap/js/bootstrap.min.js"></script>
 	* the final code will look like this
+	
 	```
 	<!DOCTYPE html>
 	<html>
