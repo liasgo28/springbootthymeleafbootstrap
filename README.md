@@ -116,10 +116,10 @@ In the eclipse console see message "Controller called"
 
 ### Bootstrap
 	* in src -> main -> resources create a new folder with name static
-	* Get [bootstrap](https://getbootstrap.com/) 
+	* Get bootstrap https://getbootstrap.com/
 	* Unzip file and rename folder to bootstrap and move to static folder
-	* add import tag css before </head> <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	* add import tags jquery, and js before </body> <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><script src="bootstrap/js/bootstrap.min.js"></script>
+	* add import tag css before close head tag
+	* add import tags jquery, and js before close body
 	* the final code will look like this
 	
 	```
